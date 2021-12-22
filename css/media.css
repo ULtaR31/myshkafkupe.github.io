@@ -2,27 +2,29 @@
 	.MinAboutStart{
 		width: 70%;
 	}
-	header {
-		height: 120px
-	}
-
-}
-
-@media (max-width: 900px) {
 	.HeaderNav li {
 		font-size: 15px;
 	}
 }
 
+@media (max-width: 900px) {
+	.HeaderNav li {
+		font-size: 10px;
+	}
+}
+
 
 @media (max-width: 768px){
+	body.lock {
+		overflow: hidden;
+	}
 	.burger {
 		display: block;
 		position: relative;
 		left: 0;
+		top: 0;
 	}
 	header{
-		height: 80px;
 		position: fixed;
 		z-index: 10;
 	}
@@ -38,12 +40,37 @@
 		background-color: var(--pink);
 	}
 	.HeaderNav ul {
+		margin-top: 200px;
 		flex-flow: column;
+		width: 100%;
 	}
 	.HeaderNav li {
 		font-size: 25px;
+		width: 100%;
 	}
 	.HeaderTime1 {
-		display: flex;
+		display: flex;	
+	}
+}
+
+
+@media(max-width: 500px) {
+	.burger {
+		position: absolute;
+		top: 0;
+		left: 85%;
+	}
+	.HeaderTime1 {
+		position: relative;
+		margin: 50px 50px 10px 50px;
+	}
+}
+
+
+
+@media(max-width: 375px) {
+	.burger {
+		position: absolute;
+		left: 80%;
 	}
 }

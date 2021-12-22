@@ -1,3 +1,4 @@
 $('.burger').click(function(event) {
-	$('.burger, .HeaderNav').toggleClass('active1', 4000);
+	$('.burger, .HeaderNav, .HeaderTime1').toggleClass('active1');
+	$('body').toggleClass('lock');
 });

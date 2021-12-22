@@ -15,3 +15,7 @@ html{
 	--white: whitesmoke;
 	--black: black;
 }
+
+body {
+	overflow: auto;
+}
