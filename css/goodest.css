@@ -1,0 +1,61 @@
+.Goodest {
+	width: 100%;
+	height: auto;
+	position: relative;
+	background: url(../img/wood.jpg);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 50px;
+}
+
+.goodest {
+	width: 80%;
+	height: auto;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	flex-flow: column;
+}
+
+.goodText {
+	width: 100%;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font: 30px sans-serif;
+	font-weight: bold;
+	color: var(--black);
+}
+
+.good {
+	width: 100%;
+	height: auto;
+	position: relative;
+	display: flex;
+	justify-content:space-evenly;
+	flex-flow: wrap;
+}
+
+.goodBlock {
+	position: relative;
+	width: 250px;
+	height: 300px;
+	margin: 10px;
+}
+
+.goodBlock h1 {
+	font: 20px sans-serif;
+	font-weight: normal;
+	color: var(--black);
+	margin: 10px auto;
+}
+
+
+.goodimg {
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+	background-color: var(--pink);
+}

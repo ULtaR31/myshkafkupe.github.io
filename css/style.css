@@ -1,0 +1,17 @@
+@import url(obn.css);
+@import url(animate.css);
+@import url(header.css);
+@import url(slyder.css);
+@import url(MinAbout.css);
+@import url(content.css);
+@import url(goodest.css);
+
+@import url(media.css);
+
+
+
+html{
+	--pink: #9850A0;
+	--white: whitesmoke;
+	--black: black;
+}
