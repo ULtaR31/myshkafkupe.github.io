@@ -5,7 +5,7 @@
 @import url(MinAbout.css);
 @import url(content.css);
 @import url(goodest.css);
-
+@import url(works.css);
 @import url(media.css);
 
 
@@ -18,4 +18,19 @@ html{
 
 body {
 	overflow: auto;
+}
+
+.sviper {
+	position: fixed;
+	z-index: 10;
+	right: 20px;
+	bottom: 20px;
+	transition: .3s;
+	opacity: .5;
+}
+.sviper:hover {
+	opacity: 1;
+}
+.sviper.active2 {
+	opacity: 0;
 }
