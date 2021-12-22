@@ -90,7 +90,7 @@ header{
 
 .HeaderNav{
 	position: relative;
-	top: -100%;
+	top: 0;
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
