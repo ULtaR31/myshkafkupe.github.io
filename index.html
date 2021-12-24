@@ -305,7 +305,7 @@
 	</div>
 
 	<div class="workBut">
-		<button>Оставить сообщение</button>
+		<button id='workBut'>Оставить сообщение</button>
 	</div>
 
 </div>
@@ -320,23 +320,23 @@
 
 
 
-<div class="opr">
+<div class="opr active4">
 	<div class="oprBg"></div>	
 	<div class="opros">
 		<div class="oprText">
 			<h1>Пригласить дизайнера</h1>
 		</div>
 		<div class="cross"></div>
-		<div class="oprOpr">
-			<input type="text" placeholder="Ваше Имя">
-			<input type="text" placeholder="Номер Телефона">
-			<input type="text" placeholder="E-mail">
-			<input type="text" placeholder="Ваши пожелания" class="oproprp">
-		</div>
-		<div class="oprBut">
-			<button class="bt1">закрыть</button>
-			<button class="bt2">ПРИГЛАСИТЬ</button>
-		</div>
+		<form action="mail.php" method="POST" class="oprOpr">
+			<input type="text" placeholder="Ваше Имя" name="user_name">
+			<input type="text" placeholder="Номер Телефона" name="user_phone">
+			<input type="text" placeholder="E-mail" name="user_email">
+			<input type="text" placeholder="Ваши пожелания" class="oproprp" name="user_post">
+			<div class="oprBut">
+			<button class="bt1" id="bt1">закрыть</button>
+			<button type='submit' class="bt2">ПРИГЛАСИТЬ</button>
+			</div>
+		</form>
 	</div>
 </div>
 
@@ -370,14 +370,13 @@
 
 </footer>
 
-<script src="js/main.js"></script>
 <script src="js/wow.min.js"></script>
 <script src="js/flickity.pkgd.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="js/jQuery.js"></script>
+<script src="js/main.js"></script>
 <script>
     new WOW().init();
 </script>
-
 </body>
 </html>

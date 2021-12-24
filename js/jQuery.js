@@ -14,11 +14,14 @@ $(document).ready(function($) {
     });
 });
 
-	$('.workBut').onclick(function(event){
+	$('#workBut').click(function(event){
 		$('.opr').toggleClass('active4');
 	})
-	$('.bt1').onclick(function (event){
-		
+	$('#bt1').click(function (event){
+		$('.opr').addClass('active4');
+	})
+	$('.cross').click(function(event){
+		$('.opr').addClass('active4');
 	})
 
 });
