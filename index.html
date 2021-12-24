@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-	<meta http-equiv="Refresh" content="2">
+	<!-- <meta http-equiv="Refresh" content="5"> -->
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,10 +15,11 @@
 	<title>Мой Шкаф-Купе | Производство и установка шкафов-купе</title>
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="icon" href="img/favicon.ico">
+	<link rel="stylesheet" href="css/flickity.min.css" media="screen">
 </head>
 <body>
-	
-<header id='met1'>
+	<div id="met1"></div>
+<header>
 	<div class="HeaderIco">
 		<img src="img/logo.png" alt="">
 	</div>
@@ -53,9 +54,63 @@
 
 
 
+
+
+
 <div class="slyder">
-	
+
+	<div class="gallery js-flickity"
+	  data-flickity-options='{ "wrapAround": true }'>
+	  
+	  <div class="carousel-cell">
+
+	  	<img src="img/slide_2.jpg" alt="">
+	  	<h1>Шкаф-купе с Пескоструйным рисунком</h1>
+	  	<p>Пескоструйный рисунок осуществляет специальный станок, который обрабатывает гладкую поверхность стекла, зеркала, воздействуя тонкой сильной струей воздуха под давлением.</p>
+	  
+	  </div>
+	  
+	  <div class="carousel-cell">
+
+	  	<img src="img/slide_3.jpg" alt="">
+	  	<h1>Шкаф-купе с Фотопечатью</h1>
+	  	<p>Любой дизайн, любые цвета — все чего пожелает душа.</p>
+	  
+	  </div>
+	  
+	  <div class="carousel-cell">
+
+	  	<img src="img/slide_4.jpg" alt="">
+	  	<h1>Гардеробные комнаты</h1>
+	  	<p>Практически во всех новых домах планировкой предусмотрена отдельная гардеробная комната.</p>
+	  
+	  </div>
+
+	  <div class="carousel-cell">
+
+	  	<img src="img/slide_5.jpg" alt="">
+	  	<h1>Шкаф-купе с Лакобелем</h1>
+	  	<p>Лакобель соответствует требованиям современных архитектурных тенденций в дизайне интерьера и гармонирует с другими материалами.</p>
+	  
+	  </div>
+
+	  <div class="carousel-cell">
+
+	  	<img src="img/slide_6.jpg" alt="">
+	  	<h1>Комбинированные шкафы-купе</h1>
+	  	<p>Комбинированные шкафы разрабатываются из отдельных элементов и деталей, которые можно гармонично размещать с учетом планировки комнаты.</p>
+	  
+	 </div>
+
+	</div>
+
+
 </div>
+
+
+
+
+
 
 <div class="MinAbout">
 	<div class="MinAboutStart">
@@ -248,7 +303,7 @@
 	<div class="workPhoto">
 		<img src="img/works.png" alt="">
 	</div>
-	
+
 	<div class="workBut">
 		<button>Оставить сообщение</button>
 	</div>
@@ -263,12 +318,66 @@
 </div>
 
 
+
+
+<div class="opr">
+	<div class="oprBg"></div>	
+	<div class="opros">
+		<div class="oprText">
+			<h1>Пригласить дизайнера</h1>
+		</div>
+		<div class="cross"></div>
+		<div class="oprOpr">
+			<input type="text" placeholder="Ваше Имя">
+			<input type="text" placeholder="Номер Телефона">
+			<input type="text" placeholder="E-mail">
+			<input type="text" placeholder="Ваши пожелания" class="oproprp">
+		</div>
+		<div class="oprBut">
+			<button class="bt1">закрыть</button>
+			<button class="bt2">ПРИГЛАСИТЬ</button>
+		</div>
+	</div>
+</div>
+
+
+<footer>
+
+	<div class="usl">
+		<h1>Обзор услуг</h1>
+		<h2>График работы:</h2> <p>Пн-Вс 09:00 - 21:00</p>
+		<h2>Срок установки:</h2> <p>2-3 дня</p>
+		<h3>Работы проводятся по факту предоплаты 20% при заключении договора, остальнаясумма оплачивается после установки изделия.</h3>
+	</div>
+
+	<div class="acc">
+		<h1>Действующие акции и скидки</h1>
+		<p>О специальных предложениях можно ознакомиться в разделе <h2>Акции</h2></p>
+	</div>
+
+	<div class="rec">
+		<h1>Связаться с нами</h1>
+		<p>Связаться с нами можно следующим образом:</p>
+		<ul>
+			<li>Адрес: РБ. г. Минск</li>
+			<li>VELCOM: 8-044-488-70-95</li>
+			<li>LIFE: 8-025-998-35-02</li>
+			<li>MTC: 8-033-667-12-20</li>
+			<li>Viber: 8-044-779-32-92</li>
+			<li>E-mail: sgutsev@tut.by</li>
+		</ul>
+	</div>
+
+</footer>
+
 <script src="js/main.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/flickity.pkgd.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="js/jQuery.js"></script>
-<script src="js/wow.min.js"></script>
-              <script>
-              new WOW().init();
+<script>
+    new WOW().init();
 </script>
+
 </body>
 </html>

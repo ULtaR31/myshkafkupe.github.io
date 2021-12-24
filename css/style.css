@@ -6,6 +6,8 @@
 @import url(content.css);
 @import url(goodest.css);
 @import url(works.css);
+@import url(opros.css);
+@import url(footer.css);
 @import url(media.css);
 
 
@@ -14,15 +16,16 @@ html{
 	--pink: #9850A0;
 	--white: whitesmoke;
 	--black: black;
+	--orange: orange;
 }
 
 body {
 	overflow: auto;
 }
 
-.sviper {
+.sviper{
 	position: fixed;
-	z-index: 10;
+	z-index: 1000;
 	right: 20px;
 	bottom: 20px;
 	transition: .3s;

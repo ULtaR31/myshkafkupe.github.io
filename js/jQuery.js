@@ -4,6 +4,7 @@ $(document).ready(function($) {
 		$('.burger, .HeaderNav, .HeaderTime1').toggleClass('active1');
 		$('body').toggleClass('lock');
 	});
+
 	$(document).ready(function(){
     $("#menu").on("click","a", function (event) {
         event.preventDefault();
@@ -13,5 +14,11 @@ $(document).ready(function($) {
     });
 });
 
+	$('.workBut').onclick(function(event){
+		$('.opr').toggleClass('active4');
+	})
+	$('.bt1').onclick(function (event){
+		
+	})
 
 });

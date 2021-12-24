@@ -1,10 +1,12 @@
 header{
+	position: fixed;
 	width: 100%;
 	height: auto;
 	background-color: var(--pink);
 	display: flex;
 	flex-flow:wrap;
 	justify-content: space-between;
+	z-index: 50;
 }
 
 
@@ -140,7 +142,7 @@ header{
 	color: var(--white);
 	font-family:sans-serif;
 	font-size:15px;
-	margin: 10px;
+	margin: 0 10px;
 	right: 0;
 }
 

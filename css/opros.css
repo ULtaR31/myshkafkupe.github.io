@@ -1,0 +1,133 @@
+.opr {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: .3s;
+}
+.oprBg {
+	position: absolute;
+	z-index: 100;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	background-color: rgba(0, 0, 0, .7);
+}
+
+.opros {
+	position: absolute;
+	z-index: 101;
+	width: 600px;
+	height: 500px;
+	background-color: var(--white);
+	display: block;
+	max-height: 700px;
+	transition: .3s;
+}
+.oprText {
+	position: relative;
+	z-index: 102;
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	margin: 20px 0;
+}
+.oprText h1 {
+	font: 20px sans-serif;
+	font-weight: bold;
+}
+
+.oprOpr {
+	width: 100%;
+	height: auto;
+	padding: 10px;
+	display: block;
+}
+
+.oprOpr input {
+	width: 80%;
+	height: 50px;
+	margin: 15px;
+	padding: 5px;
+	color: var(--pink);
+	border: .5px solid black;
+	transition: .3s;
+
+}
+.oproprp {
+	width: 80%;
+	max-width: 80%;
+	height:100px;
+	max-height: 400px;
+
+}
+.oprOpr input:focus {
+	border: 1px solid var(--pink);
+}
+
+.oprBut {
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	margin: 10px;
+}
+.bt1 {
+	width: 70px;
+	height: 40px;
+	background-color: var(--grey);
+	border: 1px solid black;
+	color: var(--black);
+	margin: 20px;
+	margin-right: 0;
+	transition: .3s;
+}
+.bt2 {
+	width: 100px;
+	height: 40px;
+	background-color: var(--pink);
+	color: var(--white);
+	border: 1px solid var(--black);
+	margin: 20px;
+	margin-left: 0;
+	transition: .3s;
+}
+
+.bt1:hover {
+	box-shadow: 0 0 10px 10px black;
+}
+
+.bt2:hover {
+	background-color: var(--white);
+	color: var(--pink);
+	box-shadow: 0 0 10px 10px var(--pink);
+}
+.cross {
+	position: absolute;
+	right:10%;
+	top: 5%;
+}
+.cross::before {
+	content: "";
+	position: absolute;
+	width: 30px;
+	height: 2px;
+	background-color: black;
+	transform: rotate(45deg);
+
+}
+
+.cross::after {
+	content: "";
+	position: absolute;
+	width: 30px;
+	height: 2px;
+	background-color: black;
+	transform: rotate(-45deg);
+}

@@ -1,5 +1,29 @@
 .slyder{
-	height: 400px;
+	position: relative;
+	top: 50px;
+}
+
+.carousel-cell {
+  width: 100%;
+  height: auto;
+  background: #8C8;
+  counter-increment: carousel-cell;
+}
+.carousel-cell img {
 	width: 100%;
-	background-color: black;
+}
+
+.carousel-cell h1,
+.carousel-cell p {
+	position: absolute;
+	font-family: sans-serif;
+	top: 420px;
+	z-index: 50;
+	color: var(--white);
+	left: 20px;
+}
+
+.carousel-cell h1 {
+	font: 30px sans-serif;
+	top: 360px;
 }
