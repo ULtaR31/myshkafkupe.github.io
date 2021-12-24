@@ -1,0 +1,57 @@
+.work {
+	width: 100%;
+	height:auto;
+	position: relative;
+	display: block;
+}
+
+.workText {
+	width: 100%;
+	height: auto;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	font: 50px sans-serif;
+	color: var(--pink);
+	margin: 30px auto;
+}
+
+.workPhoto {
+	width: 100%;
+	height: auto;
+	position: relative;
+	display: flex;
+	justify-content: center;
+
+}
+.workPhoto {
+	width: 100%;
+	height: auto;
+	position: relative;
+	margin: 30px 0;
+}
+
+.workBut {
+	width: 100%;
+	height: auto;
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+
+.workBut button{
+	background-color: var(--pink);
+	color: var(--white);
+	font: 20px  sans-serif;
+	font-weight: bold;
+	width:400px;
+	height: 50px;
+	margin: 30px;
+	transition: .3s;
+}
+
+.workBut button:hover {
+	background-color: var(--white);
+	color: var(--pink);
+	box-shadow: 0 0 10px 4px var(--pink);
+}
